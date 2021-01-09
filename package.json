@@ -5,8 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "test",
-    "start": "node server.js",
-    "build": "node build/build.js"
+    "start": "node server.js"
   },
   "author": "ZenTown",
   "license": "ISC",
