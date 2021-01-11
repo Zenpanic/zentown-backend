@@ -34,7 +34,7 @@ app.post('/sendMessage', (req, res) => {
             from: "'Bot ZenTown' <" + botmail + ">",
             to: process.env.RECEIVER,
             subject: 'Nouveau message !',
-            text: 'From: ' + email + '\n' + 'Message: ' + message
+            text: 'From: ' + email + '\n' + 'Name: ' + name + '\n' + 'Message: ' + message
         }
 
         transporter.sendMail(mailOptions, (error, info) => {
